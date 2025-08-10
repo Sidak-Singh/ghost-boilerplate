@@ -8,6 +8,19 @@
           "commands": [
             "npm install -g yarn@1.22.19"
           ]
+        },
+        "install": {
+          "commands": [
+            "yarn install --frozen-lockfile"
+          ]
+        },
+        "build": {
+          "commands": [
+            "yarn build"
+          ]
+        },
+        "start": {
+          "cmd": "yarn start"
         }
       }
     }
