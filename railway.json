@@ -6,6 +6,7 @@
       "phases": {
         "setup": {
           "commands": [
+            "npm uninstall -g yarn || true",
             "npm install -g yarn@1.22.19"
           ]
         },
