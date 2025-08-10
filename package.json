@@ -58,7 +58,8 @@
   },
   "engines": {
     "node": "18",
-    "cli": "^1.27.0"
+    "cli": "^1.27.0",
+    "yarn": "1.22.19",
   },
   "dependencies": {
     "@extractus/oembed-extractor": "3.2.1",
